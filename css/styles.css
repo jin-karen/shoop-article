@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E8D4C6;
+}
+
+.logo img{
+    position: fixed;
+    top: 20px; 
+    width: 5%;
+}
+
+.shoop-background{
+    background-image:url(../img/sheep_baaa_ground.png);
+    text-align: center;
+}
+
+.content{
+    background-color:#F5DFD0; 
+    width:88%;
+    margin: auto;
+    border: 5px solid #D9B49E;
+}
+
+.content div{
+    text-align: center;
+    width: 42%;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+p {
+    font-family:'Times New Roman';
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table{
+    width:60%;
+    height:60%;
+    font-family:'Times New Roman';
+    font-size:small;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+tr:hover td{
+    background-color:#E3F9F6;
+}
+td:nth-child(even){
+    text-align: left;
+}
+img, table, th, td{
+    opacity: 1;
+}
+
+.poll fieldset{
+    width: 40%; 
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.appendix a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.appendix a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.appendix a:hover {
+    color: #D9B49E;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.appendix a:active {
+    color: #65979C;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+abbr{
+    text-decoration: none;
+}
